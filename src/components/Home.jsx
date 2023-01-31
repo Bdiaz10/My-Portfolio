@@ -15,11 +15,12 @@ const Home = () => {
       >
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Full stack dev
+            Aspiring Software Engineer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have 10 years of experience writing software! Currently a senior
-            studying computer sciece Enjoy my portfolio!
+            Graduating from the University of Washinton 
+            Bothell in March 2023 with a degree in Computer Science and Software 
+            Enginering. Enjoy my Portfolio!
           </p>
 
           <div>
