@@ -1,29 +1,45 @@
 import React from "react"
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg"
-import installNode from "../assets/portfolio/installNode.jpg"
-import navbar from "../assets/portfolio/navbar.jpg"
+
 
 const Portfolio = () => {
   
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
-      codehref: "",
+      src: "",
+      codehref: "https://github.com/Bdiaz10/My-Portfolio",
       demohref: "",
+      desc: "Porfolio built with React and Tailwind",
+      title: "Portfolio",
+      tools: ["React", "Tailwind"],
       
     },
     {
       id: 2,
-      src: installNode,
-      codehref: "",
+      src: "",
+      codehref: "https://github.com/Bdiaz10/REST-API",
       demohref: "",
+      desc: "REST API built with Express and MongoDB",
+      title: "REST API",
+      tools: ["Express", "MongoDB"],
     },
     {
       id: 3,
-      src: navbar,
-      codehref: "",
+      src: "",
+      codehref: "https://github.com/Bdiaz10/Hackathon-Financial-Portal",
+      demohref: "https://mecsimcalc.com/app/9137239/financial_portal",
+      desc: "1st place hackathon web app build with Python ",
+      title: "Financial Portal",
+      tools: ["Python", "MatPlotLib"],
+    },
+    {
+      id: 4,
+      src: "",
+      codehref: "https://github.com/Bdiaz10/Hackathon-Financial-Portal",
       demohref: "",
+      desc: "Object oriented C++ program processes transactions between books and patrons.",
+      title: "Library Management System",
+      tools: ["C++"],
     }
   ]
 
@@ -52,21 +68,26 @@ const Portfolio = () => {
         
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
 
-          {portfolios.map(({id, src, codehref, demohref}) => (
-            <div key ={id} className="shadow-md shadow-gray-600 rounded-lg
-              duration:200 hover:scale-105">
-              <img 
-                src={src} 
-                alt=""
-                className="rounded-md duration-200 hover:scale-105"
-              />
+          {portfolios.map(({id, codehref, demohref, desc, title, tools}) => (
+            <div key ={id} className="shadow-md shadow-blue-600 rounded-lg
+              duration:200 hover:scale-105">          
+              
+              <p className="flex items-center justify-center m-2 text-blue-400">{title}</p>
+              <p className="m-2 text-sm px-2">{desc}</p>
+              
+              <ul className="list-disc list-inside text-xs px-6">
+                {tools.map((tool) => (
+                  <li>{tool} </li>
+                ))}
+              </ul>
 
               <div className="flex items-center justify-center">
+    
                 <a
                   href={demohref}
                 >
                   <button
-                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                    className="w-1/2 px-6 m-2 duration-200 hover:scale-105"
                   >
                     Demo
                   </button>
@@ -75,7 +96,7 @@ const Portfolio = () => {
                   href={codehref}
                 >
                   <button
-                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                    className="w-1/2 px-6 m-2 duration-200 hover:scale-105"
                   >
                     Code
                   </button>
