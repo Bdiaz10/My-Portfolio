@@ -18,7 +18,7 @@ const Home = () => {
             Full Stack Software Engineer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Graduating from the University of Washinton 
+            Graduating from the University of Washington 
             Bothell in March 2023 with a degree in Computer Science and Software 
             Enginering. Enjoy my Portfolio!
           </p>
