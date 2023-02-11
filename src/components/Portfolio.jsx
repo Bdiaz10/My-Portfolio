@@ -9,7 +9,7 @@ const Portfolio = () => {
       src: "",
       codehref: "https://github.com/Bdiaz10/My-Portfolio",
       demohref: "",
-      desc: "Porfolio built with React and Tailwind",
+      desc: "Personal portfolio that you are currently viewing!",
       title: "Portfolio",
       tools: ["React", "Tailwind"],
       
@@ -17,26 +17,26 @@ const Portfolio = () => {
     {
       id: 2,
       src: "",
-      codehref: "https://github.com/Bdiaz10/REST-API",
-      demohref: "",
-      desc: "REST API built with Express and MongoDB",
-      title: "REST API",
-      tools: ["Express", "MongoDB"],
+      codehref: "https://github.com/Bdiaz10/Hackathon-Financial-Portal",
+      demohref: "https://mecsimcalc.com/app/9137239/financial_portal",
+      desc: "Personal finance web application built on the MecSimCalc platform",
+      title: "Financial Portal",
+      tools: ["Python", "MatPlotLib"],
     },
     {
       id: 3,
       src: "",
-      codehref: "https://github.com/Bdiaz10/Hackathon-Financial-Portal",
-      demohref: "https://mecsimcalc.com/app/9137239/financial_portal",
-      desc: "1st place hackathon web app build with Python ",
-      title: "Financial Portal",
-      tools: ["Python", "MatPlotLib"],
+      codehref: "https://github.com/Bdiaz10/REST-API",
+      demohref: "https://github.com/Bdiaz10/REST-API",
+      desc: "A REST API Storing MLB players and teams in my MongoDB",
+      title: "REST API",
+      tools: ["Express", "MongoDB"],
     },
     {
       id: 4,
       src: "",
       codehref: "https://github.com/Bdiaz10/Diaz-Library-in-C-",
-      demohref: "",
+      demohref: "https://github.com/Bdiaz10/Diaz-Library-in-C-",
       desc: "Object oriented C++ program processes transactions between books and patrons.",
       title: "Library Management System",
       tools: ["C++"],
@@ -82,7 +82,7 @@ const Portfolio = () => {
               </ul>
 
               <div className="flex items-center justify-center">
-    
+               
                 <a
                   href={demohref}
                 >

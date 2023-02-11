@@ -21,13 +21,26 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, voluptatem architecto voluptates iste maxime maiores est, eum optio odit laudantium vero. Doloremque cumque consectetur necessitatibus voluptate in nam iste tempore inventore omnis incidunt recusandae nihil ut nemo modi, voluptates architecto aliquam dolor molestiae consequatur ipsa temporibus asperiores! In, aut dolore?
+          I am a highly motivated and enthusiastic full stack software
+          engineer with a strong foundation in computer science. Through 
+          extensive course work and a previous internship, I have gained 
+          a strong understanding of the software development process, from initial 
+          design to deployment and maintenance. My knowledge and experience 
+          across the full stack allows me to drive progress and deliver 
+          complete solutions.
+
         </p>
 
         <br/>
 
         <p className="text-xl">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur eos nobis eum eligendi accusamus impedit animi excepturi id iure cumque sunt fugit necessitatibus ducimus aspernatur esse saepe, vero sit velit repellat. Qui laudantium quis quod tempore repellat numquam. Sed corporis ea est aperiam asperiores aspernatur quidem, laudantium porro id. Voluptas, voluptatem totam reprehenderit maxime minus laboriosam ex iste tempore. Ad debitis aperiam numquam consequuntur, commodi iure nihil rerum suscipit, laudantium quia eveniet, facilis deserunt vel ex non maiores? Eligendi, quas!
+          As a team player, I thrive in environments where I can collaborate 
+          with experienced engineers and contribute to successful software 
+          solutions. My passion for software and ability to learn new 
+          technologies fast make me a valuable asset to any software development
+          team. I am eager to deliver quality software solutions in a challenging 
+          environment, where I can be pushed as a young engineer.
+
         </p>
       </div>
     </div>
